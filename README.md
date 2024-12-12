@@ -2,7 +2,18 @@
 Clustering and Fitting
 
 # Overview:
-This report includes a dataset with details of credit card company customers. It analyzes different results, such as average credit limit, total credit cards, total visits bank, total visits online, and total calls made. We have done customer segmentation to understand customers' behavior to help a credit card company. We will also explore clustering techniques and make the fitting process in data.  We use Python and Jupyter Notebook, to explore statistical relationships and plotting within the data to derive actionable insights. Also, we will fit K-Means models.
+VARIABLES DESCRIPTION 
+
+**Avg_Credit_Limit**: Average Credit Card Limit For The Customer
+
+**Total_Credit_Cards**: Total Credit Cards Owned by the Customer
+
+**Total_visits_bank**: Total Number of Bank Visits by the Customer
+
+**Total_visits_online**: Total Visits Online by the Bank Customer
+
+**Total_calls_made**: Total Calls Made by the Customer to the Bank
+
 
 # Setup:
 
@@ -21,14 +32,6 @@ Statistical Analysis: Analyze statistical trends to explore potential relationsh
 Visualization: Utilize data visualization techniques to convey insights, including histograms, bar plots, scatter plots, and box plots.
 
 K_Means: we use models i.e. silhouette, elbow and clustering 
-
-# Key Findings:
-
-In this project, I performed K-means clustering by using elbow, silhouette, and random regression fitting models. In K-means, I got 3 clusters. After performing the models, the customer segmentation was in 3 groups.
-•	Group 0 are those customers who are not spenders.
-•	Group 1 are those customers who are unable to spend as they do not have money.
-•	Group 3 are those customers who are spenders.
-By using this report analysis credit card companies can make better marketing strategies.
 
 
 # Dependencies:
